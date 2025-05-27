@@ -1,0 +1,495 @@
+{
+  "tiers": [
+    {
+      "total_exp_required": 0,
+      "groups": [
+        {
+          "trades": [
+            // Basic trades with 50-60% reduced prices
+            {
+              "wants": [
+                {
+                  "item": "minecraft:emerald",
+                  "quantity": 6
+                }
+              ],
+              "gives": [
+                {
+                  "item": "minecraft:golden_apple",
+                  "quantity": 12
+                }
+              ],
+              "trader_exp": 15,
+              "max_uses": 30,
+              "reward_exp": true
+            },
+            {
+              "wants": [
+                {
+                  "item": "minecraft:gold_ingot",
+                  "quantity": 6
+                }
+              ],
+              "gives": [
+                {
+                  "item": "better_on_bedrock:vein_miner_book",
+                  "quantity": 1
+                }
+              ],
+              "max_uses": 15,
+              "reward_exp": true
+            },
+            {
+              "wants": [
+                {
+                  "item": "minecraft:gold_ingot",
+                  "quantity": 6
+                }
+              ],
+              "gives": [
+                {
+                  "item": "better_on_bedrock:tree_cap_book",
+                  "quantity": 1
+                }
+              ],
+              "max_uses": 15,
+              "reward_exp": true
+            },
+            {
+              "wants": [
+                {
+                  "item": "minecraft:ancient_debris",
+                  "quantity": 1
+                }
+              ],
+              "gives": [
+                {
+                  "item": "minecraft:netherite_scrap",
+                  "quantity": 3
+                }
+              ],
+              "max_uses": 15,
+              "weight": 10,
+              "reward_exp": true
+            },
+            // Iron Tool Set (50% cheaper)
+            {
+              "wants": [
+                {
+                  "item": "minecraft:diamond",
+                  "quantity": 5
+                },
+                {
+                  "item": "minecraft:iron_block",
+                  "quantity": 1
+                }
+              ],
+              "gives": [
+                {
+                  "item": "minecraft:iron_sword",
+                  "quantity": 1,
+                  "functions": [
+                    {
+                      "function": "specific_enchants",
+                      "enchants": [
+                        {"id": "sharpness", "level": 5},
+                        {"id": "unbreaking", "level": 3},
+                        {"id": "looting", "level": 3},
+                        {"id": "sweeping", "level": 3}
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "max_uses": 5,
+              "reward_exp": true
+            },
+            {
+              "wants": [
+                {
+                  "item": "minecraft:diamond",
+                  "quantity": 5
+                },
+                {
+                  "item": "minecraft:iron_block",
+                  "quantity": 1
+                }
+              ],
+              "gives": [
+                {
+                  "item": "minecraft:iron_pickaxe",
+                  "quantity": 1,
+                  "functions": [
+                    {
+                      "function": "specific_enchants",
+                      "enchants": [
+                        {"id": "efficiency", "level": 5},
+                        {"id": "unbreaking", "level": 3},
+                        {"id": "fortune", "level": 3}
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "max_uses": 5,
+              "reward_exp": true
+            },
+            // Diamond Tool Set (50-60% cheaper)
+            {
+              "wants": [
+                {
+                  "item": "minecraft:diamond_block",
+                  "quantity": 1
+                },
+                {
+                  "item": "minecraft:netherite_ingot",
+                  "quantity": 1
+                }
+              ],
+              "gives": [
+                {
+                  "item": "minecraft:diamond_sword",
+                  "quantity": 1,
+                  "functions": [
+                    {
+                      "function": "specific_enchants",
+                      "enchants": [
+                        {"id": "sharpness", "level": 5},
+                        {"id": "unbreaking", "level": 3},
+                        {"id": "looting", "level": 3},
+                        {"id": "sweeping", "level": 3},
+                        {"id": "fire_aspect", "level": 2}
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "max_uses": 3,
+              "reward_exp": true
+            },
+            {
+              "wants": [
+                {
+                  "item": "minecraft:diamond_block",
+                  "quantity": 1
+                },
+                {
+                  "item": "minecraft:netherite_ingot",
+                  "quantity": 1
+                }
+              ],
+              "gives": [
+                {
+                  "item": "minecraft:diamond_pickaxe",
+                  "quantity": 1,
+                  "functions": [
+                    {
+                      "function": "specific_enchants",
+                      "enchants": [
+                        {"id": "efficiency", "level": 5},
+                        {"id": "unbreaking", "level": 3},
+                        {"id": "fortune", "level": 3},
+                        {"id": "silk_touch", "level": 1}
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "max_uses": 3,
+              "reward_exp": true
+            },
+            // Netherite Tool Set (50-60% cheaper)
+            {
+              "wants": [
+                {
+                  "item": "minecraft:netherite_ingot",
+                  "quantity": 1
+                },
+                {
+                  "item": "minecraft:diamond_block",
+                  "quantity": 2
+                }
+              ],
+              "gives": [
+                {
+                  "item": "minecraft:netherite_sword",
+                  "quantity": 1,
+                  "functions": [
+                    {
+                      "function": "specific_enchants",
+                      "enchants": [
+                        {"id": "sharpness", "level": 5},
+                        {"id": "unbreaking", "level": 3},
+                        {"id": "looting", "level": 3},
+                        {"id": "sweeping", "level": 3},
+                        {"id": "fire_aspect", "level": 2},
+                        {"id": "knockback", "level": 2}
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "max_uses": 2,
+              "weight": 8,
+              "reward_exp": true
+            },
+            {
+              "wants": [
+                {
+                  "item": "minecraft:netherite_ingot",
+                  "quantity": 1
+                },
+                {
+                  "item": "minecraft:diamond_block",
+                  "quantity": 2
+                }
+              ],
+              "gives": [
+                {
+                  "item": "minecraft:netherite_pickaxe",
+                  "quantity": 1,
+                  "functions": [
+                    {
+                      "function": "specific_enchants",
+                      "enchants": [
+                        {"id": "efficiency", "level": 5},
+                        {"id": "unbreaking", "level": 3},
+                        {"id": "fortune", "level": 3}
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "max_uses": 2,
+              "weight": 8,
+              "reward_exp": true
+            },
+            // Iron Armor Set (50% cheaper)
+            {
+              "wants": [
+                {
+                  "item": "minecraft:iron_block",
+                  "quantity": 1
+                },
+                {
+                  "item": "minecraft:diamond",
+                  "quantity": 5
+                }
+              ],
+              "gives": [
+                {
+                  "item": "minecraft:iron_helmet",
+                  "quantity": 1,
+                  "functions": [
+                    {
+                      "function": "specific_enchants",
+                      "enchants": [
+                        {"id": "protection", "level": 4},
+                        {"id": "unbreaking", "level": 3},
+                        {"id": "aqua_affinity", "level": 1},
+                        {"id": "respiration", "level": 3}
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "max_uses": 5,
+              "reward_exp": true
+            },
+            {
+              "wants": [
+                {
+                  "item": "minecraft:iron_block",
+                  "quantity": 2
+                },
+                {
+                  "item": "minecraft:diamond",
+                  "quantity": 5
+                }
+              ],
+              "gives": [
+                {
+                  "item": "minecraft:iron_chestplate",
+                  "quantity": 1,
+                  "functions": [
+                    {
+                      "function": "specific_enchants",
+                      "enchants": [
+                        {"id": "protection", "level": 4},
+                        {"id": "unbreaking", "level": 3},
+                        {"id": "thorns", "level": 3}
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "max_uses": 5,
+              "reward_exp": true
+            },
+            // Diamond Armor Set (50-60% cheaper)
+            {
+              "wants": [
+                {
+                  "item": "minecraft:diamond_block",
+                  "quantity": 1
+                },
+                {
+                  "item": "minecraft:netherite_ingot",
+                  "quantity": 1
+                }
+              ],
+              "gives": [
+                {
+                  "item": "minecraft:diamond_helmet",
+                  "quantity": 1,
+                  "functions": [
+                    {
+                      "function": "specific_enchants",
+                      "enchants": [
+                        {"id": "protection", "level": 4},
+                        {"id": "unbreaking", "level": 3},
+                        {"id": "aqua_affinity", "level": 1},
+                        {"id": "respiration", "level": 3}
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "max_uses": 3,
+              "reward_exp": true
+            },
+            {
+              "wants": [
+                {
+                  "item": "minecraft:diamond_block",
+                  "quantity": 1
+                },
+                {
+                  "item": "minecraft:netherite_ingot",
+                  "quantity": 1
+                }
+              ],
+              "gives": [
+                {
+                  "item": "minecraft:diamond_chestplate",
+                  "quantity": 1,
+                  "functions": [
+                    {
+                      "function": "specific_enchants",
+                      "enchants": [
+                        {"id": "protection", "level": 4},
+                        {"id": "unbreaking", "level": 3},
+                        {"id": "thorns", "level": 3}
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "max_uses": 3,
+              "reward_exp": true
+            },
+            // Netherite Armor Set (50-60% cheaper)
+            {
+              "wants": [
+                {
+                  "item": "minecraft:netherite_ingot",
+                  "quantity": 1
+                },
+                {
+                  "item": "minecraft:diamond_block",
+                  "quantity": 1
+                }
+              ],
+              "gives": [
+                {
+                  "item": "minecraft:netherite_helmet",
+                  "quantity": 1,
+                  "functions": [
+                    {
+                      "function": "specific_enchants",
+                      "enchants": [
+                        {"id": "protection", "level": 4},
+                        {"id": "unbreaking", "level": 3},
+                        {"id": "aqua_affinity", "level": 1},
+                        {"id": "respiration", "level": 3},
+                        {"id": "thorns", "level": 3}
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "max_uses": 2,
+              "weight": 8,
+              "reward_exp": true
+            },
+            {
+              "wants": [
+                {
+                  "item": "minecraft:netherite_ingot",
+                  "quantity": 1
+                },
+                {
+                  "item": "minecraft:diamond_block",
+                  "quantity": 2
+                }
+              ],
+              "gives": [
+                {
+                  "item": "minecraft:netherite_chestplate",
+                  "quantity": 1,
+                  "functions": [
+                    {
+                      "function": "specific_enchants",
+                      "enchants": [
+                        {"id": "protection", "level": 4},
+                        {"id": "unbreaking", "level": 3},
+                        {"id": "thorns", "level": 3}
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "max_uses": 2,
+              "weight": 8,
+              "reward_exp": true
+            },
+            // Resource trades (50-60% cheaper)
+            {
+              "wants": [
+                {
+                  "item": "minecraft:diamond",
+                  "quantity": 6
+                }
+              ],
+              "gives": [
+                {
+                  "item": "minecraft:emerald_block",
+                  "quantity": 5
+                }
+              ],
+              "max_uses": 15,
+              "reward_exp": true
+            },
+            {
+              "wants": [
+                {
+                  "item": "minecraft:iron_block",
+                  "quantity": 1
+                }
+              ],
+              "gives": [
+                {
+                  "item": "minecraft:diamond",
+                  "quantity": 16
+                }
+              ],
+              "max_uses": 20,
+              "reward_exp": true
+            }
+          ],
+          "num_to_select": 25
+        }
+      ]
+    }
+  ]
+}
